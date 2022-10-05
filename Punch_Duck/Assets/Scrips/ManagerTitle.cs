@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ManagerTitle : MonoBehaviour
 {
+    public GameObject MainMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,10 @@ public class ManagerTitle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Space))
+        {
+            MainMenu.SetActive(false);
+            Time.timeScale = 1;
+        }
     }
 }
