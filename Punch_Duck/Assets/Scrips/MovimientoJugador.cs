@@ -31,7 +31,7 @@ public class MovimientoJugador : MonoBehaviour
 
         if(Input.GetKey(KeyCode.E))
         {
-            anim.SetTrigger("Atacar");
+            anim.SetTrigger("Golpe");
         }
     }
 
