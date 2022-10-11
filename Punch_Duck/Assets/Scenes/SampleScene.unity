@@ -210,8 +210,8 @@ GameObject:
   - component: {fileID: 233849253}
   - component: {fileID: 233849255}
   - component: {fileID: 233849254}
-  - component: {fileID: 233849256}
   - component: {fileID: 233849258}
+  - component: {fileID: 233849259}
   m_Layer: 0
   m_Name: AnimacionP
   m_TagString: Enemigo
@@ -306,21 +306,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &233849256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233849252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fc1b0ec02230534387eaca2963715c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 2000
-  maximoVida: 2000
-  barradeVida: {fileID: 1089342574}
 --- !u!61 &233849258
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -347,6 +332,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.550614, y: 7.0139856}
   m_EdgeRadius: 0
+--- !u!114 &233849259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233849252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc1b0ec02230534387eaca2963715c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 2000
+  maximoVida: 2000
+  barradeVida: {fileID: 1089342576}
 --- !u!1 &331223373
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &390709535
 RectTransform:
@@ -1298,7 +1298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089342573}
   - component: {fileID: 1089342575}
-  - component: {fileID: 1089342574}
+  - component: {fileID: 1089342576}
   m_Layer: 0
   m_Name: VidaEnemy
   m_TagString: Untagged
@@ -1329,18 +1329,6 @@ RectTransform:
   m_AnchoredPosition: {x: 198, y: 158.68}
   m_SizeDelta: {x: 162.0189, y: 43.6347}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1089342574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089342572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d1dbccd328c1fd4db3314776dfea715, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1089342575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,6 +1380,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1089342576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089342572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b66db48204e0a047b406cd497552df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1180261317
 GameObject:
   m_ObjectHideFlags: 0
