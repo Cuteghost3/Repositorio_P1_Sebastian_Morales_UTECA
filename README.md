@@ -14,6 +14,8 @@ El juego esta pensado que de la misma manera de Punch out, nuestro patito podra 
 °Un poderoso Pinguino que vive en la Antartida
 Etc.
 
+Se Debe de Descargar la Carpeta Entrega_Punch_Duck para poder jugar el juego
+
 //Aquie estan las Reglas y Conttoles del Juego //
 
 +Movimiento
